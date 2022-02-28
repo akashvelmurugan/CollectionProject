@@ -12,7 +12,7 @@ public class List {
 	public static void main(String[] args) {
 		//store duplicate 
 		//it store insertion order
-		//nonsycronized
+		//nonsycronized->executed parallel
 		System.out.println("ArrayList :");
 		ArrayList<String> arrayList= new ArrayList<>();
 		arrayList.add("One");

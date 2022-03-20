@@ -24,9 +24,11 @@ public class List {
 		arrayList.add("Four");
 		arrayList.add("Five");
 		arrayList.add("Six");
-		for (String string : arrayList) {
-			System.out.println(string);
-		}	
+		//arrayList.set(2,"two");
+		System.out.println(arrayList);
+		//		arrayList.clear();
+		//		System.out.println(arrayList);
+
 		System.out.println("==============");
 		//store duplicate 
 		//it store insertion order
@@ -58,44 +60,7 @@ public class List {
 		for (String string : arrayLinkedList) {
 			System.out.println(string);
 		}
-		//subclass of vector
-		//last in first out
-		//boolean push
-		//boolean peek
-		//boolean push
 
-		System.out.println("==============");
-		System.out.println("Stack :");
-		Stack<String> stack = new Stack<>();
-		stack.push("five");
-		stack.push("one");
-		stack.push("two");
-		stack.push("two");
-		stack.push("two");
-		stack.push("two");
-		stack.push("three");
-	//	stack loaded
-		System.out.println(stack);
-		//	stack.pop();//last in fist out
-		System.out.println(stack);	
-		String peek = stack.peek();
-		System.out.println("peek : "+peek);
-
-		System.out.println("==============");
-		System.out.println("Queue :");
-		Queue<String> queue= new PriorityQueue<>();
-		queue.add("one");
-		queue.add("five");
-		queue.add("one");
-		queue.add("two");
-		queue.add("two");
-		queue.add("two");
-		queue.add("two");
-		queue.add("three");
-		System.out.println("peek : "+queue.peek());
-		System.out.println(queue);
-		System.out.println("out : "+queue.poll());
-	//	System.out.println(queue);
 	}
 }
 
